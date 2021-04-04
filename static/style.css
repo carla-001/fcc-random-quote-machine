@@ -1,0 +1,65 @@
+.container-fluid {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10pt;
+  }
+  
+  #quote-box {
+    background: white;
+    border-radius: 5px;
+    max-width: 33%;
+    min-width: 250px;
+    margin: auto;
+    padding: 10px 10px 7px 10px;
+  }
+  
+  #text,
+  #author {
+    padding: 20px 10px 5px;
+  }
+  
+  q,
+  blockquote {
+    display: inline;
+  }
+  
+  q:before,
+  q:after {
+    content: "";
+  }
+  
+  blockquote {
+    font-size: 1.5em;
+  }
+  
+  #quote-icon {
+    padding: 8px 0px;
+    vertical-align: top;
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #new-quote {
+    color: white;
+  }
+  
+  #tweet-quote {
+    font-size: 1.2em;
+    padding: 0.35em;
+    width: 2.25em;
+    color: white;
+  }
+  
+  footer {
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+  }
+  
